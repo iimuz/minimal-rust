@@ -26,7 +26,8 @@
         "esbenp.prettier-vscode",
         "shd101wyy.markdown-preview-enhanced",
         // === RUST ===
-        "vadimcn.vscode-lldb",  // debugのために必要
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb", // debugのために必要
         // === VSCODE ===
         "alefragnani.bookmarks"
       ]
