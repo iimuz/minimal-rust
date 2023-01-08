@@ -1,17 +1,19 @@
 {
   "recommendations": [
-    // === docker ===
+    // === DOCKER ===
     "ms-azuretools.vscode-docker",
-    // === git ===
+    // === GIT ===
     "donjayamanne.githistory",
     "eamodio.gitlens",
-    // === markdown ===
+    // === MARKDOWN ===
     "bierner.markdown-preview-github-styles",
     "DavidAnson.vscode-markdownlint",
     "lpubsppop01.vscode-auto-timestamp",  // frontmatterの時刻の自動更新
     "esbenp.prettier-vscode",
     "shd101wyy.markdown-preview-enhanced",
-    // === vscode ===
+    // === RUST ===
+    "vadimcn.vscode-lldb",  // debugのために必要
+    // === VSCODE ===
     "alefragnani.bookmarks",
   ]
 }
