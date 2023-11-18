@@ -1,15 +1,15 @@
 {
   "recommendations": [
-    // === DOCKER ===
-    "ms-azuretools.vscode-docker",
-    // === MARKDOWN ===
+    // Editor
+    "EditorConfig.EditorConfig",
+    // Markdown
     "DavidAnson.vscode-markdownlint",
     "lpubsppop01.vscode-auto-timestamp", // frontmatterの時刻の自動更新
     "esbenp.prettier-vscode",
-    // === RUST ===
+    // Rust
     "rust-lang.rust-analyzer",
     "vadimcn.vscode-lldb", // debugのために必要
-    // === TOML ===
+    // Toml
     "be5invis.toml"  // Cargo.tomlなどのフォーマッターなど
   ]
 }

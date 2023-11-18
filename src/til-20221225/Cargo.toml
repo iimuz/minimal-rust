@@ -1,5 +1,6 @@
 [package]
 authors = ["iimuz <iz.primary.story+github@gmail.com>"]
+edition = "2021"
 name = "minimal_rust"
 version = "0.1.0"
 
