@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["clippy", "cmds", "dotenv", "iimuz", "rustc", "rustfmt", "rustup"],
+  "dictionaries": [],
+  "ignorePaths": [
+    ".git/**",
+    "node_modules/**",
+    "package-lock.json",
+    "target/**"
+  ]
+}
