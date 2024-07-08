@@ -1,17 +1,32 @@
 {
-  // === auto time stamp ===
-  "lpubsppop01.autoTimeStamp.filenamePattern": ".md",
-  "lpubsppop01.autoTimeStamp.lineLimit": 5,
-  "lpubsppop01.autoTimeStamp.modifiedTimeStart": "lastmod: ",
-  "lpubsppop01.autoTimeStamp.momentFormat": "YYYY-MM-DD",
-  // === markdown ===
+  // Language: json
+  "[json][jsonc][jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  // Language: markdown
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
-  // === rust ===
+  // Language: rust
   "lldb.verboseLogging": true,
   "search.exclude": {
     "**/target": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+    "editor.inlayHints.enabled": "offUnlessPressed"
+  },
+  // Language: toml
+  "[toml]": {
+    "editor.defaultFormatter": "be5invis.toml",
+    "editor.formatOnSave": true
+  },
+  // Language: yaml
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   }
 }
